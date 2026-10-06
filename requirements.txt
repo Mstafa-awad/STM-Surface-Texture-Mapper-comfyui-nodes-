@@ -1,0 +1,12 @@
+# STM: Surface Texture Mapper
+#
+# Torch is intentionally NOT installed here. ComfyUI supplies the PyTorch
+# version/accelerator stack used by the host application.
+numpy
+scipy
+Pillow
+safetensors
+transformers>=4.56
+tqdm
+psutil
+trimesh
